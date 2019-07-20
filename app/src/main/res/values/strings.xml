@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">instaClone</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="facebook_app_id" translatable="false">2061607547478668</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2061607547478668</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">SignIN</string>
+    <string name="forgotten_your_login_details">Forgotten your login details?</string>
+    <string name="get_help_with_signing_in">Get help with signing in.</string>
+    <string name="login">LogIn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

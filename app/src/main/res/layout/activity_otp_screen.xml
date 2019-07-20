@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpScreen"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/otpScreenLogIn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="Already have an account?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:text="Log in."
+            android:textColor="#404040"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D9D9D9"
+        android:layout_above="@+id/otpScreenLogIn"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_weight=".3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="ENTER CONFIRMATION CODE"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+               android:shadowColor="#000000"
+                android:textSize="16sp"/>
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_weight=".7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAlignment="center"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:id="@+id/phonenumber"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Enter the 6-digit code we sent to +91 9992468544. Request a new one."/>
+            <EditText
+                android:layout_weight=".9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/shape"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:hint="Confirmation code"
+                android:layout_marginTop="15dp"
+                android:textSize="17sp"
+                android:paddingLeft="10dp"
+                android:id="@+id/otpCome" />
+            <Button
+                android:layout_weight=".9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/button"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="40dp"
+                android:text="NEXT"
+                android:id="@+id/bNextss"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

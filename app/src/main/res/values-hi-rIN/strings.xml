@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">instaClone</string>
+    <string name="email">Tera Nam</string>
+    <string name="forgotten_your_login_details">"Bhul gya "</string>
+    <string name="get_help_with_signing_in">To ynha daba</string>
+    <string name="password">guptnam</string>
+    <string name="signin">daba daal</string>
+</resources>
